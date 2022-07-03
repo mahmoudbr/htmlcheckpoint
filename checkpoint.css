@@ -1,0 +1,74 @@
+body{
+    background-image: url(https://mobwallpapershd.com/wp-content/uploads/2021/07/Awesome-Wallpaper-Phone.jpg);
+    background-repeat: no-repeat;
+  background-size:cover ;
+  background-position: center;
+  padding: 300px;
+}
+header h1{
+    margin-top: 0px;
+}
+
+header div a {
+    display:inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    
+    background-color: black;
+    color: aliceblue;
+         
+ }
+
+p{
+    font-family:'Courier New', Courier, monospace ;
+    font-size: larger;
+    color: aliceblue;
+     
+} 
+.about {
+    display: inline-block;
+    margin: 30px 20px ;
+    color:aliceblue;
+
+
+  
+   
+    
+}
+ img{
+    height: 400px;
+    width: 300px;
+    float:left;
+}
+section p{
+    color: aliceblue;
+}
+.video{
+    margin: 100px 40%
+}
+
+.resume{
+    text-align: justify;
+    display: inline-block;
+    border:5px outset red;
+    background-color:black ;
+    color: aliceblue;
+    padding: 15px 20px;
+    margin:0px 30px;
+    
+}
+span{
+    font-size: larger;
+    color: aliceblue;
+}
+input{
+    color: blue;
+    
+}
+h1{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    border-block-end:13px inset black;
+    margin:50px;
+}
+

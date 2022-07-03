@@ -1,16 +1,21 @@
- <html>
- <head>
-    <title>My Personal Portfolio</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="checkpoint.css">
+   <title>My Personal Portfolio</title>
     <link rel="icon" href="https://blog-frontend.envato.com/cdn-cgi/image/width=1200,quality=85,format=auto/uploads/2020/06/SOC101_Portfolio_Guide.png"type="image/x-icon"/>
-
-  </head>
+   
+</head>
   <body>
-   <header id="top" class="header">
+   <header class="header">
    <div> 
    <h1> My Profile</h1>
    </div>
-   <div>
-     <ul class="list">
+   <div class="Nav">
+     <ul class="list" >
       <a href="#Home">
          <li>Home</li>
       </a>
@@ -30,8 +35,9 @@
    </header>
 
      </ul>
-     <section class="content"id="Work">
-      <div class="introduction">
+     <section class="WORK"id="Work">
+      <div class="WORK">
+         <h1> WORK</h1>
          <span class="hello,my name is mahmoud Braham"></span>
          <p>I'm in first year computer engineering</p>
          <p>specialised in software and web development</p>
@@ -41,30 +47,31 @@
      <br>
      <br>
      <br>
-     <div class="About" id="about">
      
-      <div class="About-information"> 
+     
+      <div class="About" id="about"> 
          <h1 id="about-title">About Me</h1>
-         <img id="me" src="esp.jpg">
-         <p>Hello,my name is Mahmoud Braham.</p>
-         <p>I'm currently studying web-development in the GOMYCODE summer academy program.</p>
-         <p>Next year,I start my studies at Esprit university in computer engineering. </p>
+         <img class="about" src="pic.jpg">
+         <p class="about">Hello,my name is Mahmoud Braham.</p>
+         <p class="about">I'm currently studying web-development in the GOMYCODE summer academy program.</p>
+         <p class="about">Next year,I start my studies at Esprit university in computer engineering. </p>
           
       </div>
-      <iframe
-      width="420"
-      height="315"
-      src="https://www.youtube.com/watch?v=MkLog_27S6U"
-   ></iframe>
+      <br>
+      <div class="video">
+      <iframe width="420" height="315"  
+      src="https://www.youtube.com/embed/MkLog_27S6U" >
+   </iframe>
+     </div>
       <br>
       <br>
       <br>
 
       <div class="Resume" id="Resume">
          <H1 id="resume-title">Resume</H1>
-         <p>GOMYCODE WORKSHOP HTML PROJECT</p>
-         <p>GOMYCODE git CHECKPOINT PROJECT</p>
-         <P>GOMYCODE HTML CHECKPOINT PROJECT</P>
+         <p class="resume">GOMYCODE WORKSHOP HTML PROJECT</p>
+         <p class="resume">GOMYCODE GIT CHECKPOINT PROJECT</p>
+         <P class="resume">GOMYCODE HTML CHECKPOINT PROJECT</P>
       </div>
       <br>
       <br>
@@ -80,7 +87,7 @@
             <input type="text" placeholder="enter your message">
             <div>
             <input type="submit" value="submit">
-            <p>you can also reach me by:</p>
+            <p>you can also reach me via:</p>
             <div class="Email">
                <div>
                <span>Email:mahmoudbraham02@gmail.com</span>
